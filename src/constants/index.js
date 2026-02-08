@@ -15,15 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
-  tripguide,
   threejs,
+  almadar,
 } from "../assets";
+import skinCancer from "../assets/skinCancer.png";
+import Sooq from "../assets/Sooq.png";
+import WaterQA from "../assets/WaterQA.png";
+
 
 export const navLinks = [
   {
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Engineering",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full-Stack Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Machine Learning Engineering",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Data-Driven Systems",
     icon: creator,
   },
 ];
@@ -116,58 +116,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "IT & Systems Support Intern",
+    company_name: "Almadar Aljadid – Telecommunications Company (Libya)",
+    icon: almadar,
+    iconBg: "#0a2540",
+    date: "Summer 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Supported data management tasks and assisted in maintaining internal IT systems.",
+      "Worked alongside technical teams supporting enterprise-scale telecommunications systems.",
+      "Assisted with system operations, monitoring, and basic troubleshooting procedures.",
+      "Contributed to IT documentation and gained hands-on exposure to professional IT workflows.",
+      "Developed practical understanding of IT operations within a large telecommunications environment.",
     ],
   },
 ];
+
 
 const testimonials = [
   {
@@ -197,69 +160,52 @@ const testimonials = [
 ];
 
 const projects = [
+      {
+      name: "SOOQ – Online Car Marketplace",
+      description:
+        "A full-stack web application that allows users to buy and sell cars online, featuring user authentication, listings, favourites, messaging, and an admin dashboard.",
+      tags: [
+        { name: "html", color: "blue-text-gradient" },
+        { name: "css", color: "green-text-gradient" },
+        { name: "javascript", color: "pink-text-gradient" },
+        { name: "php", color: "orange-text-gradient" },
+        { name: "mysql", color: "yellow-text-gradient" },
+      ],
+      image: Sooq, // screenshot of your project
+      source_code_link: "https://github.com/yourusername/sooq",
+    },
+
   {
-    name: "Car Rent",
+    name: "Water Quality Data Analysis System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "C++ and Qt desktop application for analysing and visualising water quality data using compliance indicators and interactive charts.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "c++", color: "blue-text-gradient" },
+      { name: "qt", color: "green-text-gradient" },
+      { name: "cmake", color: "pink-text-gradient" },
+      { name: "data-visualisation", color: "orange-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: WaterQA, // screenshot of the app
+    source_code_link: "https://github.com/yourusername/water-dataset-explorer",
   },
+
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  name: "Automated Skin Lesion Classification System",
+  description:
+    "A deep learning project that classifies skin lesion images using CNNs to assist in the early detection of skin cancer.",
+  tags: [
+    { name: "python", color: "blue-text-gradient" },
+    { name: "deep-learning", color: "green-text-gradient" },
+    { name: "computer-vision", color: "pink-text-gradient" },
+    { name: "pytorch", color: "orange-text-gradient" },
+    { name: "NumPy", color: "orange-text-gradient" },
+  ],
+  image: skinCancer, // screenshot of results or model output
+    //image: jobit,
+  source_code_link: "https://github.com/yourusername/skin-cancer-detection",
+},
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+// export { services, technologies, experiences, projects };
+

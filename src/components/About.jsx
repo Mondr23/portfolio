@@ -47,11 +47,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a Computer Science & Artificial Intelligence undergraduate at the University of Leeds, 
+        graduating in July 2026, with a strong foundation in software engineering, data structures, 
+        algorithms, and object-oriented design. I have experience building software applications across multiple languages, 
+        focusing on clean, modular, and maintainable code.
+
+        I also have hands-on experience in machine learning and deep learning, 
+        developing CNN-based models using PyTorch and NumPy, with an emphasis on performance, 
+        interpretability, and real-world applications. 
+        I am seeking a Graduate Software Engineer or AI / Machine Learning Engineer role where I can contribute to high-quality systems and continue developing as a well-rounded engineer.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
